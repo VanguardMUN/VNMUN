@@ -626,6 +626,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
 }
 
+.button-containter{
+  display: flex;
+}
+
 #intro .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -636,11 +640,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
-  margin: 10px;
+  margin-right: 10px;
   color: #3adcbe;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #3adcbe;
+
 }
 
 #intro .about-btn:hover {
@@ -877,6 +882,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 4px;
 }
 
+.description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 
 
 /*--------------------------------------------------------------
@@ -1056,6 +1066,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
+  height: 95%;
 }
 
 #hotels .hotel:hover .hotel-img img {
@@ -1255,9 +1266,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
 }
 
+.contact-item {
+ text-align: center;
+}
+
 #contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact .contact-info i {
