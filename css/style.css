@@ -833,6 +833,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .btn-container {
   text-align: center;
   margin-bottom: 80px;
+  font-size: 10px
 }
 .about-btn,
 .btn-primary {
@@ -1006,6 +1007,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 3px;
   align-content: center;
 }
+
+.venue-map {
+  text-align: center; 
+}
+
+.venue-info {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.venue-info h3,
+.venue-info h4 {
+  text-align: center;
+}
+
 
 #venue .venue-map iframe {
   width: 100%;
