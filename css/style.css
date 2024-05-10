@@ -1546,6 +1546,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ddd;
 }
 
+.rotate-image {
+  transform: rotate(270deg); /* Example: Rotate 90 degrees clockwise */
+}
+
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
